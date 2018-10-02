@@ -2,14 +2,6 @@ import os
 import pandas as pd
 import numpy as np
 
-
-def newdir():
-    os.chdir("E:/Bo/NEW")
-def olddir():
-    os.chdir("E:/Bo/OLD")
-
-d1 = "S:/Nutrition/Sacks Lab Data/2018.06 - OMNIHeart HDL Subspecies/DATA"
-
 def checksnm(file1, directory1, file2, directory2):
     """Check to see if sheets match in two excel files"""
     os.chdir(directory1)
